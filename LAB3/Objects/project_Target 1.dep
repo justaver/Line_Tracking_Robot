@@ -1,0 +1,42 @@
+Dependencies for Project 'project', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\main.c)(0x66F5910D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/Shaun/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shaun/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.7.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="540" -DSTM32L476xx -D_RTE_-o ./objects/main.o -MMD)
+I (stm32l476xx.h)(0x63BF6510)
+I (C:\Users\Shaun\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C8148)
+I (C:\Users\Shaun\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x66C33F0B)
+I (SysClock.h)(0x63BF6510)
+I (I2C.h)(0x63C60768)
+I (ssd1306.h)(0x63BF6510)
+I (ssd1306_conf.h)(0x63BF6510)
+I (ssd1306_fonts.h)(0x63BF6510)
+F (.\startup_stm32l476xx.s)(0x63C60768)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --diag_suppress=A1950W-I.\RTE\_Target_1-IC:\Users\Shaun\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\Shaun\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include--pd "__UVISION_VERSION SETA 540"--pd "STM32L476xx SETA 1"--pd "_RTE_ SETA 1"--list .\listings\startup_stm32l476xx.lst--xref -o .\objects\startup_stm32l476xx.o--depend .\objects\startup_stm32l476xx.d)
+F (.\stm32l476xx.h)(0x63BF6510)()
+F (.\SysClock.c)(0x63C60768)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/Shaun/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shaun/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.7.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="540" -DSTM32L476xx -D_RTE_-o ./objects/sysclock.o -MMD)
+I (SysClock.h)(0x63BF6510)
+I (stm32l476xx.h)(0x63BF6510)
+I (C:\Users\Shaun\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C8148)
+I (C:\Users\Shaun\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x66C33F0B)
+F (.\I2C.c)(0x66F58C8A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/Shaun/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shaun/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.7.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="540" -DSTM32L476xx -D_RTE_-o ./objects/i2c.o -MMD)
+I (I2C.h)(0x63C60768)
+I (stm32l476xx.h)(0x63BF6510)
+I (C:\Users\Shaun\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C8148)
+I (C:\Users\Shaun\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x66C33F0B)
+F (.\ssd1306.c)(0x63C60768)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/Shaun/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shaun/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.7.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="540" -DSTM32L476xx -D_RTE_-o ./objects/ssd1306.o -MMD)
+I (ssd1306.h)(0x63BF6510)
+I (stm32l476xx.h)(0x63BF6510)
+I (C:\Users\Shaun\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C8148)
+I (C:\Users\Shaun\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x66C33F0B)
+I (ssd1306_conf.h)(0x63BF6510)
+I (ssd1306_fonts.h)(0x63BF6510)
+I (I2C.h)(0x63C60768)
+F (.\ssd1306_fonts.c)(0x63BF6510)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/Shaun/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shaun/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.7.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="540" -DSTM32L476xx -D_RTE_-o ./objects/ssd1306_fonts.o -MMD)
+I (ssd1306_fonts.h)(0x63BF6510)
+I (ssd1306_conf.h)(0x63BF6510)
+F (.\ssd1306_tests.c)(0x63BF6510)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_Target_1-IC:/Users/Shaun/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/Shaun/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.7.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include-D__UVISION_VERSION="540" -DSTM32L476xx -D_RTE_-o ./objects/ssd1306_tests.o -MMD)
+I (ssd1306.h)(0x63BF6510)
+I (stm32l476xx.h)(0x63BF6510)
+I (C:\Users\Shaun\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C8148)
+I (C:\Users\Shaun\AppData\Local\Arm\Packs\Keil\STM32L4xx_DFP\2.7.0\Drivers\CMSIS\Device\ST\STM32L4xx\Include\system_stm32l4xx.h)(0x66C33F0B)
+I (ssd1306_conf.h)(0x63BF6510)
+I (ssd1306_fonts.h)(0x63BF6510)
+I (ssd1306_tests.h)(0x63BF6510)
