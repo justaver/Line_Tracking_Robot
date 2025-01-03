@@ -1,3 +1,4 @@
+![pic1](https://github.com/user-attachments/assets/91a9833c-9792-4df2-bedc-1d7f435be709)
 # Line Tracking Robot
 ## Overview
 A robot designed to follow a black line autonomously using STM32 Nucleo and reflectance sensors.
